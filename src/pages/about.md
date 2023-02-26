@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/index.html
-description: About this starter
+description: 'About this starter'
 layout: page
 youtube: true
 ---

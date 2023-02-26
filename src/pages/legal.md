@@ -3,7 +3,7 @@ title: Legal notice
 seo:
   title: Legal notice
 permalink: /imprint/index.html
-description: Imprint infos
+description: 'Imprint infos'
 layout: page
 ---
 
