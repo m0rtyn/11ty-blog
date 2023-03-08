@@ -3,8 +3,8 @@ title: 'Open Source: почему разработчики делятся'
 Created: July 22, 2022 11:42 AM
 Featured: No
 Last Updated: September 18, 2022 1:17 PM
-Public: Yes
-Published: 2021/08/20
+published: true
+date: 2021-08-20
 Slug: opensource-as-altruism
 Status: Done
 Tags: tech

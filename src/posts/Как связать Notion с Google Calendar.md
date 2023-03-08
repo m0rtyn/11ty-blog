@@ -4,8 +4,8 @@ Created: August 2, 2021 12:17 AM
 description: 'Пошаговый гайд для автоматического получения событий из Гугл-календаря в вашу базу с задачами на Notion.'
 Featured: No
 Last Updated: September 18, 2022 1:18 PM
-Public: Yes
-Published: 2021/08/28
+published: true
+date: 2021-08-28
 Slug: how-to-notion-plus-google-calendar
 Status: Done
 Tags: exocortex, focus management

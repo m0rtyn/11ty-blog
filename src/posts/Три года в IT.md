@@ -4,8 +4,8 @@ Created: January 30, 2021 5:58 PM
 description: 'После школы я, к сожалению, не последовал пути Computer Science. Мои образование, работа и проекты лишь косвенно касались «комплюктеров». Оставалось только искоса поглядывать на программистов, терпя в себе дилетанта.'
 Featured: No
 Last Updated: September 18, 2022 1:19 PM
-Public: Yes
-Published: 2019/12/08
+published: true
+date: 2019-12-08
 Slug: three-years-in-it
 Status: Done
 Tags: tech

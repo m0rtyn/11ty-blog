@@ -2,8 +2,8 @@
 Created: September 27, 2022 8:21 PM
 Featured: No
 Last Updated: September 27, 2022 9:07 PM
-Public: Yes
-Published: 2022/09/27
+published: true
+date: 2022-09-27
 Slug: pokoy-app-first-release
 Status: Not started
 Tags: fun, meditation, tech

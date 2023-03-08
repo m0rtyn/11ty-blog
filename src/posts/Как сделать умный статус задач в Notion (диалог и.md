@@ -4,8 +4,8 @@ Created: June 5, 2021 11:35 PM
 description: 'Подписчик спросил как я сделал автоматическое определение статуса проекта в Notion-таблице'
 Featured: No
 Last Updated: September 18, 2022 1:22 PM
-Public: Yes
-Published: 2021/06/05
+published: true
+date: 2021-06-05
 Slug: how-to-smart-status-of-notion-project
 Status: Done
 Tags: exocortex, focus management

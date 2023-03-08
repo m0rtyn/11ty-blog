@@ -3,8 +3,8 @@ title: 'Обзор CodeStream (расширение для VSCode)'
 Created: September 17, 2021 2:13 PM
 Featured: No
 Last Updated: September 18, 2022 1:21 PM
-Public: Yes
-Published: 2022/06/16
+published: true
+date: 2022-06-16
 Slug: code-stream-review
 Status: Done
 Tags: tech

@@ -3,8 +3,8 @@ title: 'Workmode в Телеграме'
 Created: January 31, 2021 11:38 PM
 Featured: No
 Last Updated: September 18, 2022 1:24 PM
-Public: No
-Published: 2019/05/17
+published: false
+date: 2019-05-17
 Slug: telegram-2
 Status: In progress
 _checkForUrl: Yes

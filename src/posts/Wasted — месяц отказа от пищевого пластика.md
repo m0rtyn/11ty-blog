@@ -3,8 +3,8 @@ title: 'Wasted — месяц отказа от пищевого пластик�
 Created: June 4, 2021 12:31 PM
 Featured: No
 Last Updated: September 18, 2022 1:18 PM
-Public: Yes
-Published: 2021/07/03
+published: true
+date: 2021-07-03
 Slug: project-the-wasted
 Status: Done
 Tags: info consumption

@@ -3,7 +3,7 @@ title: 'Aвтоматический калькулятор для упроще
 Created: October 19, 2020 2:46 PM
 Featured: No
 Last Updated: September 18, 2022 1:29 PM
-Public: No
+published: false
 Status: In progress
 _checkForUrl: Yes
 archived: No

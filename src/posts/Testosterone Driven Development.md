@@ -3,8 +3,8 @@ title: 'Testosterone Driven Development'
 Created: July 20, 2022 11:36 AM
 Featured: No
 Last Updated: September 18, 2022 1:17 PM
-Public: Yes
-Published: 2020/11/14
+published: true
+date: 2020-11-14
 Slug: testosterone-driven-development
 Status: Done
 Tags: fun, tech

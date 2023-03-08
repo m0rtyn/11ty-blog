@@ -4,8 +4,8 @@ Created: November 16, 2019 6:44 PM
 description: 'Статья о раскадке QWERTY и о том, как я создал ей замену'
 Featured: No
 Last Updated: September 18, 2022 1:19 PM
-Public: Yes
-Published: 2019/07/21
+published: true
+date: 2019-07-21
 Slug: no-more-qwerty
 Status: Done
 Tags: tech

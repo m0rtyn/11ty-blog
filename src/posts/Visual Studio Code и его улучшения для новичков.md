@@ -3,8 +3,8 @@ title: 'Visual Studio Code и его улучшения для новичков'
 Created: February 11, 2022 12:37 PM
 Featured: No
 Last Updated: September 18, 2022 1:18 PM
-Public: Yes
-Published: 2022/02/13
+published: true
+date: 2022-02-13
 Slug: how-to-vscode
 Status: Done
 Tags: tech

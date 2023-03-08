@@ -4,8 +4,8 @@ Created: January 31, 2021 11:27 PM
 description: 'Этот пост про давно описанную и забытую историю отказа от сахара. Не кушать сахар с тех пор стало нормой, а наблюдение за теми кто его ест — удивительным процессом.'
 Featured: No
 Last Updated: September 18, 2022 1:19 PM
-Public: Yes
-Published: 2019/03/07
+published: true
+date: 2019-03-07
 Slug: game-of-sugar-rejection
 Status: Done
 Tags: info consumption

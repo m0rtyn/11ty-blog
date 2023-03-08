@@ -3,8 +3,8 @@ title: 'About Martyn'
 Created: July 15, 2021 3:59 PM
 Featured: No
 Last Updated: October 1, 2022 10:02 AM
-Public: Yes
-Published: 2021/07/15
+published: true
+date: 2021-07-15
 Slug: about-martyn
 Status: Done
 _checkForUrl: Yes

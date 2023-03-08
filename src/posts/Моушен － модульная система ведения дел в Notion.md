@@ -4,8 +4,8 @@ Created: February 5, 2021 10:04 PM
 Description: 'Доклад о мощной системе дел в Notion. Пример интеграции в один инструмент: задач, проектов, спринтов, дневников, базы знаний, календаря и прочих штук.'
 Featured: No
 Last Updated: October 3, 2022 2:01 PM
-Public: Yes
-Published: 2020/08/01
+published: true
+date: 2020-08-01
 Slug: motion-talk
 Status: Done
 Tags: exocortex, focus management

@@ -4,8 +4,8 @@ Created: October 2, 2022 11:26 AM
 description: 'A living working paper on the hardest goal of the year'
 Featured: No
 Last Updated: January 8, 2023 2:23 PM
-Public: Yes
-Published: 2022/10/02
+published: true
+date: 2022-10-02
 Status: In progress
 Tags: exocortex, tech
 _checkForUrl: No

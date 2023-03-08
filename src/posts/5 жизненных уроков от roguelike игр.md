@@ -3,7 +3,7 @@ title: '5 жизненных уроков от roguelike игр'
 Created: June 26, 2021 2:46 PM
 Featured: No
 Last Updated: September 18, 2022 1:21 PM
-Public: No
+published: false
 Status: In progress
 _checkForUrl: Yes
 archived: No

@@ -3,8 +3,8 @@ title: 'To customize or not to customize?'
 Created: September 27, 2022 7:25 PM
 Featured: Yes
 Last Updated: December 3, 2022 10:58 PM
-Public: Yes
-Published: 2022/09/27
+published: true
+date: 2022-09-27
 Slug: is-it-worth-customizing
 Status: Done
 Tags: tech

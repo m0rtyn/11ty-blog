@@ -3,8 +3,8 @@ title: 'О раскладке Martynak (диалог из чата)'
 Created: June 6, 2021 2:53 PM
 Featured: No
 Last Updated: September 18, 2022 1:22 PM
-Public: No
-Published: 2021/06/11
+published: false
+date: 2021-06-11
 Slug: martynak-question
 Status: In progress
 _checkForUrl: Yes

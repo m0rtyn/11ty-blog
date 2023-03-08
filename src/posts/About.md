@@ -3,8 +3,8 @@ title: 'About'
 Created: July 3, 2021 1:53 PM
 Featured: No
 Last Updated: October 1, 2022 10:04 AM
-Public: Yes
-Published: 2021/07/15
+published: true
+date: 2021-07-15
 Status: Done
 _checkForUrl: Yes
 archived: No

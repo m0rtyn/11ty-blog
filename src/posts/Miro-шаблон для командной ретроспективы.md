@@ -4,8 +4,8 @@ Created: August 29, 2021 3:44 PM
 description: 'Мой шаблон для проведения Ретроспективы в команде, который я развиваю и полирую с 2020 года.'
 Featured: No
 Last Updated: September 18, 2022 1:21 PM
-Public: No
-Published: 2021/09/19
+published: false
+date: 2021-09-19
 Slug: retro-miro-template
 Status: In progress
 Tags: agile, creativity, tech
