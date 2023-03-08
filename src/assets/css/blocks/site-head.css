@@ -4,3 +4,18 @@
   align-items: center;
   justify-content: space-between;
 }
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) 0;
+}
+
+body > header {
+  position: sticky !important;
+  top: 0;
+  background-color: var(--color-light);
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 0.1);
+}

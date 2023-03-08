@@ -3,8 +3,9 @@
 }
 
 .section__inner {
-  background: var(--spot-color, var(--color-dark));
-  color: var(--color-light);
+  color: var(--color-dark);
+  cursor: pointer;
+  user-select: none;
 }
 
 .section blockquote {

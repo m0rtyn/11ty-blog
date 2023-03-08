@@ -14,7 +14,7 @@ body {
 }
 
 /* Base typesetting */
-h1,
+/* h1, */
 h2,
 h3 {
   line-height: 1;
@@ -90,6 +90,10 @@ a:hover {
 
 :target {
   scroll-margin-top: 2ex;
+}
+
+#main {
+  min-height: calc(100vh-81px-60px);
 }
 
 main:focus {
