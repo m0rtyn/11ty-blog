@@ -11,7 +11,8 @@ Tags: tech
 _checkForUrl: Yes
 archived: No
 content_type: article
-isEng: Yes
+isEng: true
+cover: 'customize.jpg'
 ---
 
 I love tweaking my tools to fit me. In the IT industry, it’s called “customization”. But I’m not talking about IT — this article is about tooling in general, both physical and digital.

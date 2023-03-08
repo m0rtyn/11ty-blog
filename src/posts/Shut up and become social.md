@@ -16,7 +16,7 @@ _checkForUrl: Yes
 archived: No
 content_type: article
 cover_image: upgrade-your-social-skills.jpg
-isEng: No
+isEng: false
 
 # Страх общения
 

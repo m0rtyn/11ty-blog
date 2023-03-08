@@ -12,7 +12,7 @@ _checkForUrl: Yes
 archived: No
 content_type: project
 cover_image: photo_2021-05-23_21.27.54.jpeg
-isEng: No
+isEng: false
 ---
 
 # ℹ️ О проекте

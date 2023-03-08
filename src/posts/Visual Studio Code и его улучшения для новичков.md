@@ -11,7 +11,7 @@ Tags: tech
 _checkForUrl: Yes
 archived: No
 content_type: article
-isEng: No
+isEng: false
 ---
 
 # Вводная часть

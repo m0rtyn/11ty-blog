@@ -1,7 +1,7 @@
 ---
-title: '[WIP] My moving from Notion to Dendron'
+title: 'My moving from Notion to...'
 Created: October 2, 2022 11:26 AM
-description: 'A living working paper on the hardest goal of the year'
+description: 'A living working paper on the hardest goal of the 2022 year'
 Featured: No
 Last Updated: January 8, 2023 2:23 PM
 published: true
@@ -11,7 +11,8 @@ Tags: exocortex, tech
 _checkForUrl: No
 archived: No
 content_type: article
-isEng: Yes
+isEng: true
+cover: 'creation-of-adam.jpg'
 ---
 
 <aside>
@@ -21,17 +22,13 @@ isEng: Yes
 
 <aside>
 ⚠️ I decided to move a main part of my system (Diary) to Obsidian as a intermediate step on the path from Notion to VSCode. I wainting for release of the Advanced Queries feature and continue to learn Dendron to complete this relocation in future.
-
 </aside>
 
 # My comparison table
 
 ✅ — Definetely yes
-
 ❌ — No
-
 🌕 — Yes with extension or workaround
-
 🌗 — Partial
 
 | Feature | Notion | Obsidian | Dendron (VSCode) |

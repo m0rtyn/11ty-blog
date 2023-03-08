@@ -13,7 +13,7 @@ _checkForUrl: Yes
 archived: No
 content_type: talk
 cover_image: image.png
-isEng: No
+isEng: false
 ---
 
 # Видео-запись

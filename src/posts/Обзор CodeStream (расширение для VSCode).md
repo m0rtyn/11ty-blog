@@ -11,7 +11,7 @@ Tags: tech
 _checkForUrl: Yes
 archived: No
 content_type: article
-isEng: No
+isEng: false
 ---
 
 [https://images.codestream.com/video/PullRequests.mp4](https://images.codestream.com/video/PullRequests.mp4)
@@ -32,12 +32,12 @@ isEng: No
 - Сильно ускоряет процесс ревью по субъективным ощущениям
 - VScode в отличие от Гитлаба работает шустро при большом диффе
     
-    ![[Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled.png)
+    ![[Wants/добыл лекарства/Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled.png)
     
 
-![[Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled%201.png)
+![[Wants/добыл лекарства/Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled%201.png)
 
-![[Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled%202.png)
+![[Wants/добыл лекарства/Untitled]]%20af027abc6e784c5fbd95aab1010d72ff/Untitled%202.png)
 
 # Минусы
 

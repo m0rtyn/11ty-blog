@@ -11,7 +11,7 @@ Tags: tech
 _checkForUrl: Yes
 archived: No
 content_type: talk
-isEng: No
+isEng: false
 ---
 
 # Видео-запись

@@ -13,7 +13,7 @@ _checkForUrl: Yes
 archived: No
 content_type: article
 cover_image: retro-template.jpg
-isEng: No
+isEng: false
 ---
 
 # Ссылка на шаблон

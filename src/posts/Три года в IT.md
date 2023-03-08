@@ -13,7 +13,7 @@ _checkForUrl: Yes
 archived: No
 content_type: article
 cover_image: image%203.jpg
-isEng: No
+isEng: false
 ---
 
 - **Содержание**

@@ -10,7 +10,7 @@ Tags: fun, meditation, tech
 _checkForUrl: Yes
 archived: No
 content_type: project
-isEng: Yes
+isEng: true
 title: Pokoy app' first release on Product Hunt
 ---
 

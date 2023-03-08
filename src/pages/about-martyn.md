@@ -4,29 +4,29 @@ Created: July 15, 2021 3:59 PM
 Featured: No
 Last Updated: October 1, 2022 10:02 AM
 published: true
+layout: page
 date: 2021-07-15
-Slug: about-martyn
+permalink: /about-martyn/index.html
 Status: Done
 _checkForUrl: Yes
 archived: No
 content_type: page
-isEng: No
+isEng: true
 ---
 
-![[/martyn-avatar-round.png]]
+<img src="/assets/images/About%20Martyn/martyn-avatar-round.png" width="200" />
 
 <aside>
-👋 Hi, I'm Mártyn, literally a frontend developer [[]] and figuratively an artist.
+  👋 Hi, I'm Mártyn, literally a frontend developer and figuratively an artist.
 
-Some people know me as Vladimir Martynenko, but is so boring and official.
+  Some people know me as Vladimir Martynenko, but is so boring and official.
 
-I develop interfaces and make team processes better. Make talks and doing educational projects.
+  I develop interfaces and make team processes better. Make talks and doing educational projects.
 
-You can reach me at [Telegram](https://t.me/m0rtyn)
-
+  You can reach me at [Telegram](https://t.me/m0rtyn)
 </aside>
 
-# ℹ️ About me
+## ℹ️ About me
 
 I'm ~30. I make my living doing web interfaces and business automation.
 
@@ -38,7 +38,7 @@ And then I worked a lot of jobs. Not that it's something to be proud of, but the
 
 Why so many things? Simple, my focus is on opportunity, not on maintaining the *status quo*. People like me are called "polymaths," "scanners," "changers," "ADHD-ers," "Zoomers," or whatever, but the main thing here is the thrill of discovery.
 
-# ❤️ What I like
+## ❤️ What I like
 
 I love being in a state of "above myself." That's why I made blog
 "So Meta". I also like to invent something of my own and give it names.
@@ -52,7 +52,7 @@ Here are examples:
 
 I also enjoy giving talks and lectures. I am always willing to speak on an interesting topic. You can 🎤 [read more here](https://someta.site/let-me-to-the-mic).
 
-# 📦 Projects.
+## 📦 Projects
 
 I collect personal projects and occasionally get nostalgic on a list of them.
 
@@ -68,21 +68,20 @@ You may know me from such ventures as:
 - 💀 Applied Rationality Marathon "Hammer Time"
 - 💀 Book Marathon "Koob"
 
-# 💢 What I hate
+## 💢 What I hate
 
 I've been diagnosed with *Multiple Sclerosis* since I was 10 years old. No, it's not about forgetfulness, it's about immunity that *spoils the wiring* between neurons. Hence the interest in neuroscience, medicine and thinking.
 
 Coping with the disease and striving for a stable and endless remission. You can read about it ***[here](https://martyn-guru.netlify.app/papers/invalid-martyn)***
 
-# 🧑💻 My code.
+## 💻 My code
 
 My projects are on [Github](https://github.com/m0rtyn). I try to extract individual pieces from my work and shape them into self-sufficient solutions, and you can give them a couple of stars for usefulness.
 
----
-title: '🤙 Contacts.'
-Email: mrtnsn.dev[at][gmail.com](http://gmail.com/)
----
 
+## 🤙 Contacts
+
+Email: mrtnsn.dev[at][gmail.com](http://gmail.com/)
 Phones:
 
 - +7 (999) 464-four-three-two-one 🇷🇺
