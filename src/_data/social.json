@@ -10,8 +10,13 @@
     "icon": "mastodon.svg"
   },
   {
+    "platform": "telegram",
+    "url": "https://t.me/m0rtyn",
+    "icon": "telegram.svg"
+  },
+  {
     "platform": "rss",
-    "url": "/feed.xml",
+    "url": "feed.xml",
     "icon": "rss.svg"
   }
 ]

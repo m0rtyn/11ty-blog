@@ -1,0 +1,18 @@
+<li class="card flow overflow-hidden">
+  <h2>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+  </h2>
+  {% set definedDate = post.data.date %}
+  {% include "partials/date.njk" %}
+  <p>{{ post.data.description }}</p>
+
+  {% if post.data.cover %}
+    <img 
+      src="/assets/images/{{ post.data.cover }}" 
+      class="post-image" 
+      loading="lazy" 
+      alt="article cover"/>
+  {# {% else %}
+    <img class="post-image" src="/assets/images/cover.jpg" alt="article default cover"/> #}
+  {% endif %}
+</li>

@@ -105,9 +105,6 @@ nav.navbar svg {
   height: 100%;
   width: auto;
 }
-header svg {
-  transform: translateY(-0.1em);
-}
 
 nav.navbar [aria-expanded='true'] svg {
   transform: var(--nav-list-rotate, rotate(45deg));

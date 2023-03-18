@@ -1,8 +1,8 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'So Meta Site',
+  siteName: 'So Meta',
   siteDescription:
-    'Description TBD',
+    'Notes on learning about the world from the outside: brain and thinking, programming and planning, rationality and emotion',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -10,13 +10,14 @@ module.exports = {
   author: 'Martyn', // i.e. Lene Saile - author's name. Must be set.
   authorEmail: 'mrtnsn.dev@gmail.com', // i.e. hola@lenesaile.com - email of the author
   authorWebsite: '', // i.e. https.://www.lenesaile.com - the personal site of the author
-  themeColor: '#35c6c6', //  Manifest: defines the default theme color for the application
+  themeColor: '#777', //  Manifest: defines the default theme color for the application
   themeBgColor: '#383838', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   meta_data: {
     opengraph_default: '/assets/images/opengraph-default.jpg',
     twitterSite: '', // i.e. @site - twitter profile of the site
     twitterCreator: '', // i.e. @author -  twitter profile of the site
-    mastodonProfile: '' // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
+    mastodonProfile: '', // i.e. https://front-end.social/@lene - url to your mastodon instance/profile
+    telegramProfile: 'https://t.me/metabaza'
   },
   blog: {
     // this is for the rss feed

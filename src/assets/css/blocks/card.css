@@ -66,7 +66,9 @@
 .card:hover,
 .card:focus,
 .card:focus-within {
-  box-shadow: 0 0 0 2px var(--color-primary);
+  box-shadow:
+    0 0 0 4px var(--color-light-glare),
+    0 0 0 8px var(--color-secondary-glare);
   transform: scale(1.01);
 }
 

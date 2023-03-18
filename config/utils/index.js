@@ -7,7 +7,6 @@ const slugifyString = str => {
     remove: /[#,&,+()$~%.'":*?<>{}]/g,
     lower: true
   });
-  console.debug("🚀 ~ slugifyString ~ slug:", str, "-> ", slug)
   return slug
 };
 

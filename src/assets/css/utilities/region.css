@@ -7,3 +7,7 @@
   padding-top: var(--region-space-top, var(--space-l-2xl));
   padding-bottom: var(--region-space-bottom, var(--space-l-2xl));
 }
+
+header + .region {
+  margin-top: 0;
+}

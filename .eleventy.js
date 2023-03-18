@@ -94,7 +94,12 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
 
   // 	--------------------- Custom collections -----------------------
-  eleventyConfig.addCollection('posts', getAllPosts);
+  // eleventyConfig.addCollection('posts', getAllPosts);
+  eleventyConfig.addCollection("posts", (collection) => {
+    return collection
+      .getFilteredByTags("posts")
+      .filter((post) => post.data.published);
+  });
 
   // 	--------------------- Events ---------------------
   eleventyConfig.on('afterBuild', svgToJpeg);

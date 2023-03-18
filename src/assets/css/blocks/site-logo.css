@@ -1,5 +1,27 @@
-.logo {
-  font-family: var(--font-mono);
-  font-weight: 700;
-  letter-spacing: -0.08rem;
+.logo > h1 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.logo svg {
+  display: block !important;
+}
+
+.site-name {
+  color: var(--color-primary);
+  display: block;
+  box-sizing: border-box;
+  /* height: auto; */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.site-name svg {
+  padding: 0.2em 0 !important;
+}
+
+.site-name.is-hidden {
+  opacity: 0;
+  transform: translateX(-3rem);
 }

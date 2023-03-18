@@ -12,7 +12,9 @@ _checkForUrl: No
 archived: No
 content_type: article
 isEng: true
-cover: 'creation-of-adam.jpg'
+cover: 'notion-to-obsidian.png'
+created: 2023-03-18T21:55:21+04:00
+updated_at: 2023-03-18T22:44:13+04:00
 ---
 
 <aside>
@@ -24,7 +26,7 @@ cover: 'creation-of-adam.jpg'
 ⚠️ I decided to move a main part of my system (Diary) to Obsidian as a intermediate step on the path from Notion to VSCode. I wainting for release of the Advanced Queries feature and continue to learn Dendron to complete this relocation in future.
 </aside>
 
-# My comparison table
+## My comparison table
 
 ✅ — Definetely yes
 ❌ — No
@@ -46,7 +48,7 @@ cover: 'creation-of-adam.jpg'
 | Graph view | ❌ | ✅ | ✅ |
 | Collaboration | ✅ | 🟡  | 🟡  |
 
-## Comparison by Dendron
+### Comparison by Dendron
 
 [https://wiki.dendron.so/notes/b33d1803-6e4e-418f-a269-c4d4bde967cf/](https://wiki.dendron.so/notes/b33d1803-6e4e-418f-a269-c4d4bde967cf/)
 
@@ -58,7 +60,7 @@ cover: 'creation-of-adam.jpg'
 | Foam | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | Roam | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
 
-# Plan to move
+## Plan to move
 
 - [x]  Dendron crash course
 - [x]  Test extension for csv-based databases
