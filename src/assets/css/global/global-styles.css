@@ -124,3 +124,31 @@ article [href^='http']:not([href*='someta-site.netlify.app'])::after {
 .preload-transitions * {
   transition: none !important;
 }
+
+/* Base table styles */
+table {
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  margin: 4px;
+  table-layout: fixed;
+  width: min-content;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 2px solid var(--color-secondary-glare);
+  border-collapse: collapse;
+  padding: 0.5em;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+th {
+  text-align: center;
+}
+
+td, th {
+  max-width: 300px;
+}

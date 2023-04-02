@@ -5,6 +5,12 @@
 
 .logo svg {
   display: block !important;
+  transition: stroke-width 0.3s ease-in-out;
+  /* stroke: currentColor; */
+}
+
+.logo svg:hover {
+  stroke-width: -1px;
 }
 
 .site-name {

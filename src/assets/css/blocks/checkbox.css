@@ -1,0 +1,48 @@
+.task-list {
+  list-style: none;
+  padding-left: 1.5em;
+  margin: 0;
+}
+
+.task-list-item {
+  margin-bottom: 0.5em;
+}
+
+.task-list-item > p {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.task-list-item > p > input {
+  /* margin-right: 0.5em;
+  position: absolute;
+  margin-left: -1.5em;
+  /* font-size: 3em; */
+  /* width: 1em;
+  height: 1em;
+  color: var(--color-primary); */
+  display: none;
+}
+
+.task-list-item > p > label:before {
+  line-height: 1.5em;
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: -1.5em;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border-radius: 0.25em;
+}
+
+.task-list-item > p > input[type=checkbox]:checked + label:before,
+label:hover:before {
+  content: "✔️";
+  font-weight: bold;
+  color: #666666;
+  text-align: center;
+  line-height: 16px;
+}

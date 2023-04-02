@@ -7,6 +7,7 @@ const markdownItEmoji = require('markdown-it-emoji');
 const markdownItFootnote = require('markdown-it-footnote');
 const markdownitMark = require('markdown-it-mark');
 const markdownitAbbr = require('markdown-it-abbr');
+const markdownItCheckbox = require('markdown-it-task-checkbox');
 const {slugifyString} = require('../utils');
 
 const markdownLib = markdownIt({
@@ -16,6 +17,14 @@ const markdownLib = markdownIt({
   typographer: true
 })
   .disable('code')
+  .use(markdownItCheckbox, {
+    disabled: true,
+    divWrap: false,
+    divClass: 'checkbox',
+    idPrefix: 'cbx_',
+    ulClass: 'task-list',
+    liClass: 'task-list-item'
+  })
   .use(markdownItPrism, {
     defaultLanguage: 'plaintext'
   })

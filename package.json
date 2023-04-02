@@ -25,6 +25,7 @@
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-img": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "markdown-it-task-checkbox": "^1.0.6",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
