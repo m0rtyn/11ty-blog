@@ -3,8 +3,24 @@
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
   "items": [
     {
+      "name": "Primary",
+      "value": "#000"
+    },
+    {
       "name": "Dark",
       "value": "#131313"
+    },
+    {
+      "name": "Secondary",
+      "value": "#404040"
+    },
+    {
+      "name": "Primary Glare",
+      "value": "#D0D0D0"
+    },
+    {
+      "name": "Secondary Glare",
+      "value": "#D8D8D8"
     },
     {
       "name": "Light",
@@ -13,22 +29,6 @@
     {
       "name": "Light Glare",
       "value": "#FFFFFF"
-    },
-    {
-      "name": "Primary",
-      "value": "#000"
-    },
-    {
-      "name": "Primary Glare",
-      "value": "#D0D0D0"
-    },
-    {
-      "name": "Secondary",
-      "value": "#404040"
-    },
-    {
-      "name": "Secondary Glare",
-      "value": "#D8D8D8"
     }
   ]
 }
