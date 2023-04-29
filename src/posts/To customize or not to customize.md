@@ -7,25 +7,27 @@ published: true
 date: 2022-09-27
 Slug: is-it-worth-customizing
 Status: Done
-Tags: tech
+Tags: ["tech"]
 _checkForUrl: Yes
 archived: No
 content_type: article
 isEng: true
 cover: 'customize.jpg'
+created: 2023-03-19T12:32:58+04:00
+updated_at: 2023-03-19T13:03:56+04:00
 ---
 
 I love tweaking my tools to fit me. In the IT industry, it’s called “customization”. But I’m not talking about IT — this article is about tooling in general, both physical and digital.
 
-# **How I do it**
+## How I do it
 
 Most of the time, talking about customization, people talk about changing a single thing that annoys them. Often, it’s about the appearance. But when I use a tool for a long time, I can change it a lot, sometimes even changing the purpose of the tool itself.
 
 For example, look at my old laptop backpack. At one point I made a “walking desktop” out of it, — a device to use my laptop while I stand.  The backpack is not a backpack anymore  — it’s not comfortable to carry something in it now.
 
-![[/Untitled.png]]
+![|300](/assets/images/to-customize-or-not-to-customize/Untitled.png)
 
-# ****The Default Option™****
+## The Default Option™
 
 I rarely meet avid customizers like me.  More than that, I see the opposite trend: people tend to preserve the defaults, especially in professional tools. When they use an IDE, they keep the default settings, rarely going beyond installing basic plugins when they customize.
 
@@ -41,7 +43,7 @@ Some tools are more influential than others. Look at Vim — it’s shortcuts we
 
 Then, there are *frameworks*. For example, [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done), the set of principles and conventions. Many tools do follow it, but it’s far from being a universal methodology. You still have to tailor it by adopting from others or inventing your own ad-hocs.
 
-# The “On demand" mode
+## The “On demand” mode
 
 By trial and error, I have chosen the way of continuous customization. It's easier and more familiar to me. Yes, I often tweak things. Yes, I do not have a single universal standard — mine  is subjective and changes as I go along. But that is precisely the point.  Sometimes it feels like building a house of cards that is sure to fall apart. But man, it is such a comfortable process for me. My customization is alive. It makes my everyday flow so easy.
 

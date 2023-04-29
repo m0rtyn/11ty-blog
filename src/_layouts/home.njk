@@ -2,53 +2,14 @@
 layout: base
 ---
 
-<header class="section spot-color-primary">
+{% set assetHash = global.random() %}
+
+<header class="section">
   <div class="section__inner">
     <div class="wrapper flow region logo">
       <h1 class="">
         {% include 'svg/so-meta.svg' %}
-        <script>
-            const gradient = document.getElementById('Gradient1');
-
-            const stop1 = document.getElementById('stop1');
-            const stop2 = document.getElementById('stop2');
-            const stop3 = document.getElementById('stop3');
-            const stop4 = document.getElementById('stop4');
-            const stop5 = document.getElementById('stop5');
-
-            function animateGradient() {
-              // Анимация угла градиента
-              const angle = (Date.now() / 5000) * 360; // 5 секунд на полный оборот
-              const radian = angle * Math.PI / 180;
-              const x1 = 50 - 50 * Math.cos(radian);
-              const y1 = 50 - 50 * Math.sin(radian);
-              const x2 = 50 + 50 * Math.cos(radian);
-              const y2 = 50 + 50 * Math.sin(radian);
-
-              gradient.setAttribute('x1', x1 + '%');
-              gradient.setAttribute('y1', y1 + '%');
-              gradient.setAttribute('x2', x2 + '%');
-              gradient.setAttribute('y2', y2 + '%');
-
-              // Анимация искажения градиента
-              const offset1 = (Math.sin(Date.now() / 1000) * 25) + 20;
-              const offset2 = (Math.sin(Date.now() / 1200) * 25) + 40;
-              const offset3 = (Math.sin(Date.now() / 1400) * 25) + 60;
-              const offset4 = (Math.sin(Date.now() / 1600) * 25) + 80;
-              const offset5 = (Math.sin(Date.now() / 1800) * 25) + 100;
-
-              stop1.setAttribute('offset', offset1 + '%');
-              stop2.setAttribute('offset', offset2 + '%');
-              stop3.setAttribute('offset', offset3 + '%');
-              stop4.setAttribute('offset', offset3 + '%');
-              stop5.setAttribute('offset', offset3 + '%');
-
-              requestAnimationFrame(animateGradient);
-            }
-
-            animateGradient();
-        </script>
-
+        <script type="module" src="/assets/scripts/logo-animation.js?{{ assetHash }}" defer></script>
       </h1>
     </div>
   </div>

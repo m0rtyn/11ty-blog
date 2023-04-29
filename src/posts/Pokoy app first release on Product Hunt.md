@@ -11,7 +11,7 @@ _checkForUrl: Yes
 archived: No
 content_type: project
 isEng: true
-title: Pokoy app' first release on Product Hunt
+title: "Pokoy app: first release on Product Hunt"
 ---
 
 ![https://i.imgur.com/nFH4Xf9.jpg](https://i.imgur.com/nFH4Xf9.jpg)
@@ -48,7 +48,7 @@ I've learned to use cognitive bias to my own benefit. I like it when I see that 
 
 Thanks to Pokoy, my average meditation has increased from 13 minutes to 21 minutes in the last two months (*+48 hours per year*). More importantly, I've closed my goal of 100 hours by the end of this year!
 
-The app is free and open-source. To try it, just click the link.
+The app is free and open-source. To try it, click the link.
 
 I will be happy to hear your questions, suggestions, and criticism! Thank you!
 

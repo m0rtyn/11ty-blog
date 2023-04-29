@@ -32,12 +32,6 @@ Here are some of the brain errors: survivor error, accessibility heuristics, and
 
 By understanding distortions, I can spot them and if not prevent them, at least correct them in time. Therefore, while studying rationality, I quickly felt the benefit in cases where I was able to direct something in a desired direction.
 
-## 🔭 How to follow a blog
-
-- [Someta.site](https://someta.site/) - general feed
-- [Someta.chat](https://t.me/metaunity) - to learn about and discuss publications on Telegram
-- [Metabase](https://t.me/metabaza) - to get messages about new content on Telegram
-
 ---
 
 * — this is a topic for a separate discussion. In short, it's too costly to fight them, and there are too few resources to do so

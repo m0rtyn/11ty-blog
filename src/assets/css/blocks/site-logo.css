@@ -32,6 +32,7 @@
   transform: translateX(-3rem);
 }
 
-/* #logo path {
-  fill: url(#Gradient1);
-} */
+
+#logo path {
+  filter: drop-shadow(0 0 1px #0003);
+}

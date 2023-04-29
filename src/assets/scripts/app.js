@@ -1,9 +1,10 @@
 // © Manuel Matuzović: https://web.dev/website-navigation/
 
 const nav = document.querySelector('nav');
-const list = nav.querySelector('ul');
-const burgerClone = document.querySelector('#burger-template').content.cloneNode(true);
-const svg = nav.querySelector('svg');
+const list = nav?.querySelector('ul');
+// @ts-ignore
+const burgerClone = document?.querySelector('#burger-template')?.content?.cloneNode(true);
+const svg = nav?.querySelector('svg');
 
 const button = burgerClone.querySelector('button');
 button.addEventListener('click', e => {
@@ -18,7 +19,7 @@ const disableMenu = () => {
 };
 
 //  close on escape
-nav.addEventListener('keyup', e => {
+nav?.addEventListener('keyup', e => {
   if (e.code === 'Escape') {
     disableMenu();
   }
@@ -26,10 +27,10 @@ nav.addEventListener('keyup', e => {
 
 // close if clicked outside of event target
 document.addEventListener('click', e => {
-  const isClickInsideElement = nav.contains(e.target);
+  const isClickInsideElement = nav?.contains(e?.target);
   if (!isClickInsideElement) {
     disableMenu();
   }
 });
 
-nav.insertBefore(burgerClone, list);
+nav?.insertBefore(burgerClone, list);

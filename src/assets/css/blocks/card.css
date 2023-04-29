@@ -13,10 +13,10 @@
     linear-gradient(-45deg,var(--color-light) 25%,transparent 25%),
     linear-gradient(45deg,transparent 75%,var(--color-light) 75%),
     linear-gradient(45deg,transparent 75%,var(--color-light) 75%);
-  animation: shimmer 3s linear infinite;
+  /* animation: shimmer 3s linear infinite; */
+  /* -webkit-animation: shimmer 3s linear infinite; */
   background-color: var(--color-light-glare);
   background-size: 7px 63px;
-  -webkit-animation: shimmer 3s linear infinite;
   background-clip: text;
 }
 
