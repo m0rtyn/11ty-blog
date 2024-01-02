@@ -40,8 +40,7 @@ Why so many things? Simple, my focus is on opportunity, not on maintaining the *
 
 ## ❤️ What I like
 
-I love being in a state of "above myself." That's why I made blog
-"So Meta". I also like to invent something of my own and give it names.
+I like to invent something of my own and give it names.
 Here are examples:
 
 - [Martynak](https://github.com/m0rtyn/martynak) — a keyboard layout for those who hate QWERTY
@@ -58,6 +57,7 @@ I collect personal projects and occasionally get nostalgic on a list of them.
 
 You may know me from such ventures as:
 
+- [Telegram Channel](https://t.me/planisnothing) "Plan is Nothing"
 - [Telegram Channel](https://t.me/metabaza) "So Meta"
 - [Talks](https://bit.ly/martyn-talks)
 - 💀 [Delivering Cooking Kits "By Taste"](https://vk.com/povkusu_nsk)

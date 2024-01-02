@@ -54,7 +54,7 @@ In short, the only standard you need is your personal comfort.
 ### This is what I tweak
 
 - Personal layout of *Martynak* for macOS & Windows — I occasionally improve and sync versions
-- “So Meta” blog, which was created on *custom config* for *Gatsby.js* and then migrated to a different [technology](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) and tweaked
+- “Wlog” blog, which was created on *custom config* for *Gatsby.js* and then migrated to a different [technology](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) and tweaked
 - *VSCode* with a large set of extensions and customizations ([Article about it](https://someta.site/how-to-vscode) — RU)
 - Notion (Enhanced) with personal task management methodology
 - The desks I've been building since 2017 from the surrounding junk

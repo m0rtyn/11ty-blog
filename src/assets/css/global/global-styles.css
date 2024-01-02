@@ -100,7 +100,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='someta-site.netlify.app'])::after {
+article [href^='http']:not([href*='someta.netlify.app'])::after {
   display: inline-block;
   width: 1em;
   height: 1em;

@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-title: 'So Meta'
+title: "Martyns's Wlog"
 description: '.'
 layout: 'home'
 blog:

@@ -16,7 +16,7 @@ content_type: page
 isEng: true
 ---
 
-**So Meta** is [Martyn's](/about-martyn) blog about wanting to see the world from the outside.
+**Wlog** is [Martyn's](/about-martyn) blog about wanting to see the world from the outside.
 
 ## ⭐️ For what
 
