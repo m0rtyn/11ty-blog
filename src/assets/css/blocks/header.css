@@ -1,0 +1,7 @@
+.header {
+  .logo > .site-name > svg {
+    width: auto;
+    height: 2rem;
+    padding: 0;
+  }
+}
