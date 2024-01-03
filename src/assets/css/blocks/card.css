@@ -3,16 +3,15 @@
     background-position: 0px 35px;
   }
   to {
-    background-position: 100px 100px, -100px 100px, 100px 100px, -100px 100px
+    background-position: 100px 100px, -100px 100px, 100px 100px, -100px 100px;
   }
 }
 
 .background-interference {
-  background-image: 
-    linear-gradient(45deg,var(--color-light) 25%,transparent 25%),
-    linear-gradient(-45deg,var(--color-light) 25%,transparent 25%),
-    linear-gradient(45deg,transparent 75%,var(--color-light) 75%),
-    linear-gradient(45deg,transparent 75%,var(--color-light) 75%);
+  background-image: linear-gradient(45deg, var(--color-light) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--color-light) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--color-light) 75%),
+    linear-gradient(45deg, transparent 75%, var(--color-light) 75%);
   /* animation: shimmer 3s linear infinite; */
   /* -webkit-animation: shimmer 3s linear infinite; */
   background-color: var(--color-light-glare);
@@ -23,33 +22,114 @@
 .bg-pattern {
   background-color: var(--color-light-glare);
   opacity: 0.8;
-  background: 
-    radial-gradient(circle, transparent 20%, var(--color-light-glare) 20%, var(--color-light-glare) 80%, transparent 80%, transparent), 
-    radial-gradient(circle, transparent 20%, var(--color-light-glare) 20%, var(--color-light-glare) 80%, transparent 80%, transparent) 25px 25px, 
-    linear-gradient(var(--color-primary-glare) 2px, transparent 2px) 0 -1px, 
-    linear-gradient(90deg, var(--color-primary-glare) 2px, var(--color-light-glare) 2px) -1px 0;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      var(--color-light-glare) 20%,
+      var(--color-light-glare) 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        var(--color-light-glare) 20%,
+        var(--color-light-glare) 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(var(--color-primary-glare) 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, var(--color-primary-glare) 2px, var(--color-light-glare) 2px) -1px
+      0;
   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
-.bg-pattern:nth-child(2n) {
-  background-image: repeating-conic-gradient(from 30deg, var(--color-primary-glare) 0% 60deg, var(--color-light-glare) 0% 120deg);
+.bg-pattern:nth-child(3n) {
+  background-image: repeating-conic-gradient(
+    from 30deg,
+    var(--color-primary-glare) 0% 60deg,
+    var(--color-light-glare) 0% 120deg
+  );
   background-size: 10px 17px;
   background-color: var(--color-light-glare);
 }
 
-.bg-pattern:nth-child(3n) {
-  background:
-      conic-gradient(at 10% 50%,#0000 75%,var(--color-primary-glare) 0),
-      conic-gradient(at 10% 50%,#0000 75%,var(--color-primary-glare) 0) calc(1*10px) calc(3*10px),
-      conic-gradient(at 10% 50%,#0000 75%,var(--color-primary-glare) 0) calc(2*10px) calc(1*10px),
-      conic-gradient(at 10% 50%,#0000 75%,var(--color-primary-glare) 0) calc(3*10px) calc(4*10px),
-      conic-gradient(at 10% 50%,#0000 75%,var(--color-primary-glare) 0) calc(4*10px) calc(2*10px),
-      conic-gradient(at 50% 10%,#0000 75%,var(--color-primary-glare) 0) 0 calc(4*10px),
-      conic-gradient(at 50% 10%,#0000 75%,var(--color-primary-glare) 0) calc(1*10px) calc(2*10px),
-      conic-gradient(at 50% 10%,#0000 75%,var(--color-primary-glare) 0) calc(2*10px) 0,
-      conic-gradient(at 50% 10%,#0000 75%,var(--color-primary-glare) 0) calc(3*10px) calc(3*10px),
-      conic-gradient(at 50% 10%,#0000 75%,var(--color-primary-glare) 0) calc(4*10px) calc(1*10px),var(--color-light-glare);;
+.bg-pattern:nth-child(5n) {
+  background: conic-gradient(at 10% 50%, #0000 75%, var(--color-primary-glare) 0),
+    conic-gradient(at 10% 50%, #0000 75%, var(--color-primary-glare) 0) calc(1 * 10px)
+      calc(3 * 10px),
+    conic-gradient(at 10% 50%, #0000 75%, var(--color-primary-glare) 0) calc(2 * 10px)
+      calc(1 * 10px),
+    conic-gradient(at 10% 50%, #0000 75%, var(--color-primary-glare) 0) calc(3 * 10px)
+      calc(4 * 10px),
+    conic-gradient(at 10% 50%, #0000 75%, var(--color-primary-glare) 0) calc(4 * 10px)
+      calc(2 * 10px),
+    conic-gradient(at 50% 10%, #0000 75%, var(--color-primary-glare) 0) 0 calc(4 * 10px),
+    conic-gradient(at 50% 10%, #0000 75%, var(--color-primary-glare) 0) calc(1 * 10px)
+      calc(2 * 10px),
+    conic-gradient(at 50% 10%, #0000 75%, var(--color-primary-glare) 0) calc(2 * 10px) 0,
+    conic-gradient(at 50% 10%, #0000 75%, var(--color-primary-glare) 0) calc(3 * 10px)
+      calc(3 * 10px),
+    conic-gradient(at 50% 10%, #0000 75%, var(--color-primary-glare) 0) calc(4 * 10px)
+      calc(1 * 10px),
+    var(--color-light-glare);
   background-size: 50px 50px;
+}
+
+.bg-pattern:nth-child(7n) {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: linear-gradient(
+      30deg,
+      #CCCCCC 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #CCCCCC 87.5%,
+      #CCCCCC
+    ),
+    linear-gradient(
+      150deg,
+      #CCCCCC 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #CCCCCC 87.5%,
+      #CCCCCC
+    ),
+    linear-gradient(
+      30deg,
+      #CCCCCC 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #CCCCCC 87.5%,
+      #CCCCCC
+    ),
+    linear-gradient(
+      150deg,
+      #CCCCCC 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #CCCCCC 87.5%,
+      #CCCCCC
+    ),
+    linear-gradient(
+      60deg,
+      #CCCCCC77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #CCCCCC77 75%,
+      #CCCCCC77
+    ),
+    linear-gradient(
+      60deg,
+      #CCCCCC77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #CCCCCC77 75%,
+      #CCCCCC77
+    );
+  background-size: 20px 35px;
+  background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
 }
 
 .card {
@@ -71,11 +151,8 @@
 
 .card h2 {
   font-size: var(--size-step-3);
-  text-shadow: 
-    2px 2px 0 var(--color-light),
-    -2px 2px 0 var(--color-light),
-    2px -2px 0 var(--color-light),
-    -2px -2px 0 var(--color-light);
+  text-shadow: 2px 2px 0 var(--color-light), -2px 2px 0 var(--color-light),
+    2px -2px 0 var(--color-light), -2px -2px 0 var(--color-light);
 }
 
 .card > time {
@@ -86,11 +163,8 @@
 }
 
 .card > p {
-  text-shadow: 
-    2px 2px 0 var(--color-light),
-    -2px 2px 0 var(--color-light),
-    2px -2px 0 var(--color-light),
-    -2px -2px 0 var(--color-light);
+  text-shadow: 2px 2px 0 var(--color-light), -2px 2px 0 var(--color-light),
+    2px -2px 0 var(--color-light), -2px -2px 0 var(--color-light);
 }
 
 .card h2 a,
@@ -101,9 +175,7 @@
 .card:hover,
 .card:focus,
 .card:focus-within {
-  box-shadow:
-    0 0 0 4px var(--color-light-glare),
-    0 0 0 8px var(--color-secondary-glare);
+  box-shadow: 0 0 0 4px var(--color-light-glare), 0 0 0 8px var(--color-secondary-glare);
   transform: scale(1.01);
 }
 
