@@ -37,7 +37,8 @@ const markdownLib = markdownIt({
   })
   .use(markdownItClass, {
     ol: 'list',
-    ul: 'list'
+    ul: 'list',
+    li: 'collapsed'
   })
   .use(markdownItLinkAttributes, [
     {

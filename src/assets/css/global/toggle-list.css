@@ -1,0 +1,93 @@
+li {
+  &:not(:has(> *:only-child)),
+  &:not(:has(> *)) {
+    &::marker {
+      margin-right: 0.5em;
+      font-size: 1.8rem;
+      color: #0004;
+      line-height: 2em;
+      font-weight: 900;
+      vertical-align: middle;
+      transition: color ease 0.3s;
+    }
+    
+    &:hover::marker {
+      color: #000a;
+      transform: scale(1.5);
+    }
+  }
+
+  &:has(> *:only-child),
+  &:has(> *) {
+    list-style-type: disc;
+  }
+
+  &&:not(:has(> *))::marker {
+    content: '• ' !important;
+  }
+}
+
+li.expanded {
+  &:not(:has(> *:only-child)),
+  &:not(:has(> *)) {
+    &::marker {
+      content: '▾ ';
+    }
+  }
+}
+
+li.collapsed {
+  /* any list items with many children (not only one) */
+  &:not(:has(> *:only-child)),
+  &:not(:has(> *)) {
+    &::marker {
+      content: '▸ ';
+    }
+  }
+  
+  /* except for headings in the list items */
+  & > :not(
+    h1,h2,h3,h4,h5,h6, 
+    a:only-child,
+    p:only-child
+  ) {
+    display: none;
+  }
+}
+
+/* for the list items that have a list as a child */
+li:has(ul) {
+  background-color: transparent;
+  transition: background-color 0.2s;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 1.5em;
+    left: -2rem;
+    width: 0.2rem;
+    height: calc(100% + 1.3em);
+    background-color: #ddd;
+  }
+
+  &::after {
+    top: -1rem;
+    left: -2rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: calc(100% + 4rem);
+    height: calc(100% + 2rem);
+    border-radius: 0.5em;
+    z-index: -1;
+    padding: 1rem;
+    box-sizing: content-box;
+    opacity: 0.03;
+    transition: background-color ease 0.2s;
+  }
+
+  &:hover::after {
+    background-color: rgba(0,0,0,0.7);
+  }
+}

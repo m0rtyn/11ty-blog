@@ -8,6 +8,8 @@ preloads:
   crossorigin: true
 ---
 
+{% set assetHash = global.random() %}
+
 <article class="region blog">
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
@@ -16,4 +18,10 @@ preloads:
 
     {{ content | safe }}
   </div>
+
+  <script 
+    type="module"
+    src="/assets/scripts/toggle-list.js?{{ assetHash }}" 
+    defer
+  ></script>
 </article>

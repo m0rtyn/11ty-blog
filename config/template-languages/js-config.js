@@ -9,9 +9,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addExtension('js', {
     outputFileExtension: 'js',
     compile: async (content, path) => {
-      if (path !== `${scriptsPath}/app.js` && path !== `${scriptsPath}/logo-animation.js`) {
-        return;
-      }
+      console.debug("🚀 ~ compile: ~ path:", path)
+      // if (path !== `${scriptsPath}/app.js` && path !== `${scriptsPath}/logo-animation.js`) {
+      //   return;
+      // }
 
       return async () => {
         let output = await esbuild.build({

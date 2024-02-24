@@ -34,6 +34,17 @@ h3 {
   font-size: var(--size-step-3);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
 /* Set line lengths */
 p,
 li,
@@ -48,9 +59,10 @@ h3 {
 }
 
 blockquote {
-  border-inline-start: 0.8rem solid var(--color-primary);
+  border-inline-start: 0.5rem solid var(--color-primary);
   padding: var(--space-m-l);
   font-size: var(--size-step-2);
+  margin-inline: 0;
 }
 
 blockquote > * + * {
@@ -61,6 +73,11 @@ blockquote :last-child {
   font-family: var(--font-base);
   font-style: normal;
   font-size: var(--size-step-1);
+}
+
+blockquote > p,
+li > p {
+  margin: 0;
 }
 
 svg {
@@ -100,19 +117,23 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='someta.netlify.app'])::after {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  background-image: url('/assets/images/icn-external.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60% auto;
-  /* alternative text rules */
-  content: '(external link)';
-  overflow: hidden;
-  white-space: nowrap;
-  text-indent: 1em; /* the width of the icon */
+article [href^='http'] {
+  &:not([href*='someta.netlify.app']) {
+    &::after {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-image: url('/assets/images/icn-external.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 60% auto;
+      /* alternative text rules */
+      content: '(external link)';
+      overflow: hidden;
+      white-space: nowrap;
+      text-indent: 1em; /* the width of the icon */
+    }
+  }
 }
 
 /* Base selection styles that invert whatever colours are rendered */
@@ -151,4 +172,22 @@ th {
 
 td, th {
   max-width: 300px;
+}
+
+img {
+  &[alt='100'] {
+    max-width: 100px;
+  }
+  &[alt='200'] {
+    max-width: 200px;
+  }
+  &[alt='300'] {
+    max-width: 300px;
+  }
+  &[alt='400'] {
+    max-width: 400px;
+  }
+  &[alt='500'] {
+    max-width: 500px;
+  }
 }
