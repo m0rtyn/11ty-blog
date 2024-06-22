@@ -17,6 +17,7 @@ body > header {
   position: sticky !important;
   top: 0;
   background-color: var(--color-light);
-  box-shadow: 0 0 0 2px rgb(0 0 0 / 0.1);
+  box-shadow: 0 0 0 2px var(--color-secondary-glare);
+  border-radius: 4px;
   z-index: 1;
 }

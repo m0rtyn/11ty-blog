@@ -5,12 +5,10 @@ Featured: No
 Last Updated: September 18, 2022 1:21 PM
 published: false
 Status: In progress
-_checkForUrl: Yes
 archived: No
 content_type: article
 isEng: false
 ---
-
 Уроки
 
 - неудачное начало может обернуться успехом

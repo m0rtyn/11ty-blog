@@ -1,24 +1,25 @@
 .gradient-text {
-  color: transparent;
+  color: #fff7;
   background-color: black;
   /* background-size: 3rem 3rem; */
   padding: 0.6rem 0;
   background-clip: text;
+  
   background-image: 
     /* linear-gradient(black 50%, transparent 50%),
     linear-gradient(transparent 60%, var(--color-light) 60%), */
-    linear-gradient(-45deg, 
+    linear-gradient(45deg, 
       #fff7 30%,
       #AAA7 30%, 
       #6667 60%, 
-      #3337 60%, 
-      #0007 90%, 
+      #3337 60% 
     ),
-    linear-gradient(45deg, 
+    linear-gradient(-45deg, 
       #0003 30%,
       #3333 30%, 
       #6663 60%, 
-      #AAA3 60%, 
-      #fff3 90%,
+      #AAA3 60%
     );
+
+  transform: rotate(-1deg) skew(-3deg);
 }

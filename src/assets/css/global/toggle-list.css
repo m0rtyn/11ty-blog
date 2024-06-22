@@ -6,7 +6,7 @@ li {
     &::marker {
       margin-right: 0.5em;
       font-size: 1.8rem;
-      color: #0004;
+      color: var(--color-dark-alpha);
       line-height: 2em;
       font-weight: 900;
       vertical-align: middle;
@@ -47,7 +47,7 @@ li.expanded {
     }
 
     &:hover::marker {
-      color: #000a;
+      color: var(--color-dark-alpha);
       transform: scale(1.5);
     }
   }
@@ -64,7 +64,7 @@ li.collapsed {
     }
 
     &:hover::marker {
-      color: #000a;
+      color: var(--color-dark-alpha);
       transform: scale(1.5);
     }
   }

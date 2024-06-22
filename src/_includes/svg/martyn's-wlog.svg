@@ -39,35 +39,35 @@
     fill="url(#paint3_linear_1518_29)" />
 
 
-
+      
       <defs>
     <linearGradient id="paint0_linear_1518_29" x1="2.88202" y1="3.09998"
       x2="24.6069" y2="22.2357" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#666666" />
-      <stop offset="0.4" stop-color="#444444" />
-      <stop offset="0.6" stop-color="#222222" />
-      <stop offset="0.8" />
+      <stop offset="0.2" stop-color="#AAA" />
+      <stop offset="0.4" stop-color="#CCC" />
+      <stop offset="0.6" stop-color="#EEE" />
+      <!-- <stop offset="0.6" /> -->
     </linearGradient>
     <linearGradient id="paint1_linear_1518_29" x1="25.82" y1="2.065"
       x2="44.6485" y2="11.9041" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#666666" />
-      <stop offset="0.4" stop-color="#444444" />
-      <stop offset="0.6" stop-color="#222222" />
-      <stop offset="0.8" />
+      <stop offset="0.2" stop-color="#AAA" />
+      <stop offset="0.4" stop-color="#CCC" />
+      <stop offset="0.6" stop-color="#EEE" />
+      <!-- <stop offset="0.6" /> -->
     </linearGradient>
     <linearGradient id="paint2_linear_1518_29" x1="41.004" y1="8.63501"
       x2="57.7007" y2="24.3884" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#666666" />
-      <stop offset="0.4" stop-color="#444444" />
-      <stop offset="0.6" stop-color="#222222" />
-      <stop offset="0.8" />
+      <stop offset="0.2" stop-color="#AAA" />
+      <stop offset="0.4" stop-color="#CCC" />
+      <stop offset="0.6" stop-color="#EEE" />
+      <!-- <stop offset="0.6" /> -->
     </linearGradient>
     <linearGradient id="paint3_linear_1518_29" x1="58.767" y1="8.44"
       x2="81.0325" y2="25.2654" gradientUnits="userSpaceOnUse">
-      <stop offset="0.2" stop-color="#666666" />
-      <stop offset="0.4" stop-color="#444444" />
-      <stop offset="0.6" stop-color="#222222" />
-      <stop offset="0.8" />
+      <stop offset="0.2" stop-color="#AAA" />
+      <stop offset="0.4" stop-color="#CCC" />
+      <stop offset="0.6" stop-color="#EEE" />
+      <!-- <stop offset="0.6" /> -->
     </linearGradient>
   </defs>
 </svg>
