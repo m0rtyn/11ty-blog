@@ -1,4 +1,6 @@
 li {
+  --system-fonts: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   &:not(:has(> *:only-child)),
   &:not(:has(> *)) {
     &::marker {
@@ -11,10 +13,10 @@ li {
       transition: color ease 0.3s;
     }
     
-    &:hover::marker {
+    /* &:hover::marker {
       color: #000a;
       transform: scale(1.5);
-    }
+    } */
   }
 
   &:has(> *:only-child),
@@ -22,16 +24,31 @@ li {
     list-style-type: disc;
   }
 
-  &&:not(:has(> *))::marker {
+  /* any list items with many children (not only one) */
+  &:not(:has(> *))::marker {
     content: '• ' !important;
   }
 }
 
+ol > li {
+  list-style-type: decimal;
+}
+
 li.expanded {
+  position: relative;
+
+  /* any list items with many children (not only one) */
   &:not(:has(> *:only-child)),
   &:not(:has(> *)) {
     &::marker {
       content: '▾ ';
+      font-family: var(--system-fonts);
+      font-size: 3rem;
+    }
+
+    &:hover::marker {
+      color: #000a;
+      transform: scale(1.5);
     }
   }
 }
@@ -42,26 +59,34 @@ li.collapsed {
   &:not(:has(> *)) {
     &::marker {
       content: '▸ ';
+      font-family: var(--system-fonts);
+      font-size: 3rem;
+    }
+
+    &:hover::marker {
+      color: #000a;
+      transform: scale(1.5);
     }
   }
   
-  /* except for headings in the list items */
+  /* except for headings and links in the list items */
   & > :not(
     h1,h2,h3,h4,h5,h6, 
     a:only-child,
     p:only-child
-  ) {
-    display: none;
+    ) {
+      display: none;
   }
 }
 
 /* for the list items that have a list as a child */
-li:has(ul) {
+li.collapsed:has(ul),
+li.expanded:has(ul) {
   background-color: transparent;
   transition: background-color 0.2s;
   position: relative;
 
-  &::before {
+  /* &::before {
     content: '';
     position: absolute;
     top: 1.5em;
@@ -69,9 +94,9 @@ li:has(ul) {
     width: 0.2rem;
     height: calc(100% + 1.3em);
     background-color: #ddd;
-  }
+  } */
 
-  &::after {
+  /* &::after {
     top: -1rem;
     left: -2rem;
     content: '';
@@ -85,9 +110,40 @@ li:has(ul) {
     box-sizing: content-box;
     opacity: 0.03;
     transition: background-color ease 0.2s;
+  } */
+
+  /* &::after {
+    top: 1rem;
+    left: -1.6rem;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1.5rem;
+    // height: 1.55;
+    aspect-ratio: 1;
+    border-radius: 0.5em;
+    z-index: -1;
+    // padding: 1rem;
+    box-sizing: content-box;
+    // opacity: 0.03;
+    transition: background-color ease 0.2s;
+  } /*
+
+  /*&:hover::after {
+    background-color: rgba(0,0,0,0.7);
+  } */
+}
+
+li.expanded, li.collapsed {
+  p, strong, em, a {
+    margin: 1rem 0;
   }
 
-  &:hover::after {
-    background-color: rgba(0,0,0,0.7);
+  .heading-anchor {
+    pointer-events: none;
   }
+}
+
+nav#mainnav > ul > li {
+  list-style-type: none !important;
 }

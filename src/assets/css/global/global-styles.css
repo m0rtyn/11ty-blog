@@ -10,7 +10,6 @@ body {
   font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: 1.4;
-  letter-spacing: var(--tracking);
 }
 
 /* Base typesetting */
@@ -18,7 +17,6 @@ h1,
 h2,
 h3 {
   line-height: 1;
-  letter-spacing: var(--tracking-s);
   font-family: var(--font-display);
 }
 
@@ -59,8 +57,8 @@ h3 {
 }
 
 blockquote {
-  border-inline-start: 0.5rem solid var(--color-primary);
-  padding: var(--space-m-l);
+  border-inline-start: 0.5rem solid var(--color-primary-glare);
+  padding: var(--space-s);
   font-size: var(--size-step-2);
   margin-inline: 0;
 }
@@ -175,19 +173,19 @@ td, th {
 }
 
 img {
-  &[alt='100'] {
+  &[alt$='100'] {
     max-width: 100px;
   }
-  &[alt='200'] {
+  &[alt$='200'] {
     max-width: 200px;
   }
-  &[alt='300'] {
+  &[alt$='300'] {
     max-width: 300px;
   }
-  &[alt='400'] {
+  &[alt$='400'] {
     max-width: 400px;
   }
-  &[alt='500'] {
+  &[alt$='500'] {
     max-width: 500px;
   }
 }

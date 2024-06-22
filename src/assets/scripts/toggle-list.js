@@ -1,4 +1,5 @@
 const toggleListSelectors = new Array(6).fill(null).map((_, i) => `li:has(h${i+1} ~ ul)`)
+
 const ALLOWED_TO_TOGGLE_TAGS = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'LI', 'UL']
 
 const toggleLists = document.querySelectorAll(
