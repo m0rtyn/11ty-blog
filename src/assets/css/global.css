@@ -7,7 +7,7 @@
 
 @import 'global/variables.css';
 @import 'global/global-styles.css';
-@import 'global/toggle-list.css';
+/* @import 'global/toggle-list.css'; */
 
 @import-glob 'blocks/*.css';
 @import-glob 'compositions/*.css';
