@@ -4,6 +4,10 @@ module.exports = {
       text: 'About',
       url: '/about/'
     },
+    {
+      text: 'Wiki',
+      url: '/wiki/'
+    },
     // {
     //   text: 'Blog',
     //   url: '/blog/'

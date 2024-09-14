@@ -1,0 +1,27 @@
+---
+layout: base
+schema: wiki
+preloads:
+  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
+  as: 'font'
+  type: 'font/woff2'
+  crossorigin: true
+---
+
+{% set assetHash = global.random() %}
+
+<article class="region blog">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">{{ title }}</h1>
+
+    {% set definedDate = date %} {% include "partials/date.njk" %}
+
+    {{ content | safe }}
+  </div>
+
+  {# <script 
+    type="module"
+    src="/assets/scripts/toggle-list.js?{{ assetHash }}" 
+    defer
+  ></script> #}
+</article>
