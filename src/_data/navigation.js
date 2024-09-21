@@ -5,9 +5,13 @@ module.exports = {
       url: '/about/'
     },
     {
-      text: 'Wiki',
-      url: '/wiki/'
+      text: 'CV',
+      url: 'https://m0rtyn.github.io/cv/FE_EN.pdf'
     },
+    // {
+    //   text: 'Wiki',
+    //   url: '/wiki/'
+    // },
     // {
     //   text: 'Blog',
     //   url: '/blog/'
