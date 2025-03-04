@@ -1,6 +1,6 @@
 ---
 title: 'Как сделать умный статус задач в Notion (диалог из чата)'
-Created: June 5, 2021 11:35 PM
+created: June 5, 2021 11:35 PM
 description: 'Подписчик спросил как я сделал автоматическое определение статуса проекта в Notion-таблице'
 Featured: No
 Last Updated: September 18, 2022 1:22 PM

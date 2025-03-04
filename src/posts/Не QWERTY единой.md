@@ -1,6 +1,6 @@
 ---
 title: 'Не QWERTY единой'
-Created: November 16, 2019 6:44 PM
+created: November 16, 2019 6:44 PM
 description: 'Статья о раскадке QWERTY и о том, как я создал ей замену'
 Featured: No
 Last Updated: September 18, 2022 1:19 PM

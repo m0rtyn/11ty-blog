@@ -1,6 +1,6 @@
 ---
 title: 'Обзор CodeStream (расширение для VSCode)'
-Created: September 17, 2021 2:13 PM
+created: September 17, 2021 2:13 PM
 Featured: No
 Last Updated: September 18, 2022 1:21 PM
 published: true

@@ -1,6 +1,6 @@
 ---
 title: 'To customize or not to customize?'
-Created: September 27, 2022 7:25 PM
+created: September 27, 2022 7:25 PM
 Featured: Yes
 Last Updated: December 3, 2022 10:58 PM
 published: true
@@ -13,7 +13,6 @@ archived: No
 content_type: article
 isEng: true
 cover: 'customize.jpg'
-created: 2023-03-19T12:32:58+04:00
 updated_at: 2023-03-19T13:03:56+04:00
 ---
 

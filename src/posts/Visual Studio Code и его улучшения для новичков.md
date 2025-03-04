@@ -1,6 +1,6 @@
 ---
 title: 'Visual Studio Code и его улучшения для новичков'
-Created: February 11, 2022 12:37 PM
+created: February 11, 2022 12:37 PM
 Featured: No
 Last Updated: September 18, 2022 1:18 PM
 published: true

@@ -1,6 +1,6 @@
 ---
 title: 'Сurriculum vitæ'
-Created: February 13, 2021 10:19 AM
+created: February 13, 2021 10:19 AM
 Featured: No
 Last Updated: September 18, 2022 1:23 PM
 published: false

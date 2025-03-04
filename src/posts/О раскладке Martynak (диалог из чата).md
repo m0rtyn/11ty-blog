@@ -1,6 +1,6 @@
 ---
 title: 'О раскладке Martynak (диалог из чата)'
-Created: June 6, 2021 2:53 PM
+created: June 6, 2021 2:53 PM
 Featured: No
 Last Updated: September 18, 2022 1:22 PM
 published: false

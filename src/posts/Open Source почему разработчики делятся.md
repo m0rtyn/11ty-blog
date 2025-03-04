@@ -1,6 +1,6 @@
 ---
 title: 'Open Source: почему разработчики делятся'
-Created: July 22, 2022 11:42 AM
+created: July 22, 2022 11:42 AM
 Featured: No
 Last Updated: September 18, 2022 1:17 PM
 published: true

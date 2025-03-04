@@ -1,7 +1,7 @@
 ---
 title: 'Переезд на Raycast'
 Featured: No
-Created: 2024-01-28
+created: 2024-01-28
 Last Updated: 2024-02-17
 published: true
 Status: Done

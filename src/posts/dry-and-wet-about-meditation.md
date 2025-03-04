@@ -1,13 +1,12 @@
 ---
 title: 'Сухо (и мокро) про ретрит по Гоенке'
-Created: 2024-03-08
+created: 2024-03-08
 Featured: true
 Last Updated: 2024-03-08
 published: true
 Status: Done
 content_type: article
 isEng: false
-created: 2024-03-08
 updated_at: 2024-03-08
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Как связать Notion с Google Calendar'
-Created: August 2, 2021 12:17 AM
+created: August 2, 2021 12:17 AM
 description: 'Пошаговый гайд для автоматического получения событий из Гугл-календаря в вашу базу с задачами на Notion.'
 Featured: No
 Last Updated: September 18, 2022 1:18 PM

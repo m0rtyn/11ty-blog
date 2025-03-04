@@ -1,6 +1,6 @@
 ---
 title: 'Wasted — месяц отказа от пищевого пластика'
-Created: June 4, 2021 12:31 PM
+created: June 4, 2021 12:31 PM
 Featured: No
 Last Updated: September 18, 2022 1:18 PM
 published: true
