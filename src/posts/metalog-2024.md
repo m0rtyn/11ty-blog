@@ -1,10 +1,10 @@
 ---
 title: "Метапись: 2024"
 created: 2024-12-30
-Featured: No
+Featured: "false"
 updated_at: 2025-03-16
 published: true
-Status: Completed
+Status: Done
 archived: false
 content_type: article
 isEng: false
